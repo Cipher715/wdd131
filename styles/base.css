@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --heading-font: Oswald;
+    --paragraph-font: "Source Sans 3", Helvetica, sans-serif;
+    font-size: 16px;
+    --primary-color: #0bc008;
+    --secondary-color: #f9f6ea ; 
+    --accent1-color: #a0f49f;
+    --accent2-color: #cdc392;
+    --formtitle: rgb(76, 91, 235);
+    --bord: thin solid darkgray;
+    --zebra: rgb(240, 239, 239);
+    --required-border: solid 8px red;
+    --valid-border: solid 8px green;
+    --zebra-color: #c7f5c6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+header {
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--heading-font);
+}
+
+.navigation {
+    background-color: var(--primary-color);
+}
+
+.navigation ul{
+    display: flex;
+    height: 2rem;
+}
+
+.navigation ul li{
+    display: flex;
+    list-style: none;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    color: black;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.navigation li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5rem;
+    margin: 0 2vw; 
+}
+
+.card{
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.card h2{
+    background-color: var(--accent1-color);
+    color: black;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+#aboutme {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#aboutme p {
+    padding: 1rem;
+}
+
+#country {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 2vw;
+}
+
+#country h2 {
+    background-color: var(--secondary-color);
+    grid-area: 1/1/2/3;
+}
+#country hr {
+    grid-area: 2/1/2/3;
+    margin-bottom: 2vw;
+}
+
+#country #flag{
+    grid-area:3/1/4/2;
+    padding-left: 1vw;
+    font-size: 0.8rem;
+    text-align: center;
+    font-style: italic;
+}
+
+#country img {
+    width: 100%;
+}
+
+#country .description {
+    grid-area: 3/2/4/3;
+    padding: 0 1vw 0 1vw;
+}
+
+#resources {
+    padding-left: 2vw;
+    line-height: 2rem;
+}
+
+footer {
+    display: block;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    text-align: center;
+}
+
+footer div {
+    margin: 1vw;
+    border-bottom: solid 1px black;
+}
