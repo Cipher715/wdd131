@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country Page</title>
+    <meta name="description" content="WDD 131 - Country Page activity">
+    <meta name="author" content="Atsushi Karino">
+    <link rel="stylesheet" href="/styles/place.css">
+    <link rel="stylesheet" href="/styles/place-large.css">
+
+</head>
+<body>
+    <header>
+        <h1>Japan</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 500px)" srcset="/images/japan-large.webp">
+                <img src="/images/japan-mobile.webp" alt="mobile image by AlpamayoPhoto" >
+            </picture>
+        </div>
+        <section class="country-data">
+            <h2>Data</h2>
+            <b>Area: </b><p>377,800 sq km</p>
+            <b>Population: </b><p>123,753,041</p>
+            <b>Capital: </b><p>Tokyo</p>
+            <b>Languages: </b><p>Japanese</p>
+            <b>Currency: </b><p>Japanese Yen</p>
+            <b>Time Zone: </b><p>UTC+9</p>
+            <b>Calling Code: </b><p>+81</p>
+            <b>internet TLD: </b><p>.jp</p>
+        </section>
+        <section class="country-weather">
+            <h2>Weather</h2>
+            <img src="/images/weather.svg" alt="weather icon">
+            <b>Temperature: </b><div><p id="temp">9</p><p>&deg;C</p></div>
+            <b>Conditions: </b><p>Almost Fine</p>
+            <b>Wind: </b><div><p id="wind">7.2</p><p> km/h</p></div>
+            <b>Wind Chill: </b><p id="wind-chill"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Atsushi Karino | Tokyo Japan</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>
