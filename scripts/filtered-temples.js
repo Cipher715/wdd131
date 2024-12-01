@@ -116,6 +116,8 @@ smallTemples.addEventListener("click", () => {
 	displayTemples(temples.filter(temple => temple.area <= 10000));
 })
 
+allTemples.addEventListener("click",() => displayTemples(temples));
+
 function displayTemples(temples){
 	cards.innerHTML = "";
 	console.log(temples)
