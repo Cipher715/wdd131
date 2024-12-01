@@ -72,7 +72,7 @@ const temples = [
 		dedicated: "2016, August, 21",
 		area: 48480,
 		imageUrl:
-		"/images/sapporo-temple.webp"
+		"images/sapporo-temple.webp"
 	},
 	{
 		templeName: "Neiafu Tonga",
@@ -80,7 +80,7 @@ const temples = [
 		dedicated: "2021, September, 11",
 		area: 17000,
 		imageUrl:
-		"/images/neiafu-tonga.webp"
+		"images/neiafu-tonga.webp"
 	},
 	{
 		templeName: "Memthis Tennessee",
@@ -88,7 +88,7 @@ const temples = [
 		dedicated: "2000, April, 23",
 		area: 10890,
 		imageUrl:
-		"/images/memphis-tennessee.webp"
+		"images/memphis-tennessee.webp"
 	},
 ];
 
