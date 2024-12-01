@@ -120,7 +120,6 @@ allTemples.addEventListener("click",() => displayTemples(temples));
 
 function displayTemples(temples){
 	cards.innerHTML = "";
-	console.log(temples)
 	temples.forEach((temple) => {
 		let card = document.createElement('section');
 		let templeName = document.createElement('h3');
