@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --heading-font: Oswald;
+    --paragraph-font: "Source Sans 3", Helvetica, sans-serif;
+    font-size: 16px;
+    --primary-color: #0bc008;
+    --secondary-color: #f9f6ea ; 
+    --accent1-color: #a0f49f;
+    --accent2-color: #cdc392;
+    --formtitle: rgb(76, 91, 235);
+    --bord: thin solid darkgray;
+    --zebra: rgb(240, 239, 239);
+    --required-border: solid 8px red;
+    --valid-border: solid 8px green;
+    --zebra-color: #c7f5c6;
+}
+
 main {
     grid-template-columns: 1fr;
     max-width: 600px;
