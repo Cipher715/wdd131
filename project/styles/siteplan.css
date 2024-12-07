@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --heading-font: "Roboto Slab";
+    --paragraph-font: "Source Sans 3", Helvetica, sans-serif;
+    font-size: 16px;
+    --primary-color: #E2D4B7;
+    --secondary-color: #9C9583; 
+    --accent1-color: #B0BBBF;
+    --accent2-color: #CADBC8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+header {
+    padding: 2vw;
+    background-color: var(--primary-color);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(244, 244, 231);
+    padding: 2vw;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-family: var(--heading-font);
+}
+
+#primary{
+    background-color: var(--primary-color);
+    height: 20px;
+    width: 300px;
+}
+
+#secondary{
+    background-color: var(--secondary-color);
+    height: 20px;
+    width: 300px;
+}
+
+#accent{
+    background-color: var(--accent1-color);
+    height: 20px;
+    width: 300px;
+}
+
+#accent2{
+    background-color: var(--accent2-color);
+    height: 20px;
+    width: 300px;
+}
+
+#heading {
+    font-family: var(--heading-font);
+}
+
+#paragraph {
+    font-family: var(--paragraph-font);
+}
+
+.wireframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wireframe img {
+    width: 100%;
+}
+
+footer {
+    display: block;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer div {
+    margin: 1vw;
+    border-bottom: solid 1px black;
+}
